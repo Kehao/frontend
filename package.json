@@ -4,7 +4,8 @@
   "description": "frontend for jigojigo",
   "main": "index.js",
   "scripts": {
-    "start": "node devServer.js"
+    "start": "node devServer.js",
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",
