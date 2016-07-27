@@ -1,9 +1,10 @@
 import React from 'react'
 import _ from 'ramda'
 import setDisplayName from 'recompose/setDisplayName'
+import 'styles/app.scss'
 
 const App = () => (
-  <h1 styleName="haha" >fook!</h1>
+  <h1>fook!</h1>
 )
 
 const enhancer = _.compose(
