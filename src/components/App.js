@@ -2,8 +2,13 @@ import React from 'react'
 import _ from 'ramda'
 import setDisplayName from 'recompose/setDisplayName'
 
+import Footer from './Footer'
+
 const App = () => (
-  <h1 styleName="haha" >fook!</h1>
+  <div>
+    <h1>fook!</h1>
+    <Footer />
+  </div>
 )
 
 const enhancer = _.compose(

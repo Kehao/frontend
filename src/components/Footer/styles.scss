@@ -1,0 +1,41 @@
+// TODO
+// include a new css framework like foundation?
+// move out all those colors
+
+$gray_border: #D0D8DB;
+$gray_font: #8A9599;
+$black_font: #17272E;
+$red_heart: #FF4D4D;
+
+.footer {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid $gray_border;
+  clear: both;
+}
+
+p {
+  font-size: 0.9rem;
+  float: left;
+  width: 33%;
+
+  &.tm {
+    color: $gray_font;
+  }
+
+  &.made_by {
+    color: $black_font;
+    text-align: center;
+  }
+}
+
+a.heart {
+  margin: 0 0.2rem;
+  svg {
+    width:  .75rem;
+    height: .75rem;
+    color: $red_heart;
+    fill:  $red_heart;
+    cursor: pointer;
+  }
+}
