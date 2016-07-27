@@ -1,9 +1,12 @@
 import React from 'react'
 import _ from 'ramda'
 import setDisplayName from 'recompose/setDisplayName'
+import VideoList from 'components/VideoList'
 
 const App = () => (
-  <h1 styleName="haha" >fook!</h1>
+  <div>
+    <VideoList />
+  </div>
 )
 
 const enhancer = _.compose(
