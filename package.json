@@ -33,6 +33,7 @@
     "jigojigo-frontend-cli": "git+https://github.com/jigojigo/frontend-cli.git#master",
     "node-sass": "^3.8.0",
     "react-hot-loader": "^3.0.0-beta.2",
+    "sass-flex-mixin": "^1.0.3",
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
